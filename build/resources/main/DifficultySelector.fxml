@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" styleClass="difficultySelector" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+   <children>
+      <Label alignment="CENTER" layoutX="50.0" layoutY="80.0" prefHeight="120.0" prefWidth="500.0" styleClass="difficultyLabel" text="ОБЕРIТЬ СКЛАДНIСТЬ" textAlignment="CENTER">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label fx:id="ez" alignment="CENTER" layoutX="225.0" layoutY="500.0" onMouseClicked="#selectDifficulty" prefHeight="50.0" prefWidth="150.0" styleClass="difficultyButton" text="Легко" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="md" alignment="CENTER" layoutX="225.0" layoutY="570.0" onMouseClicked="#selectDifficulty" prefHeight="50.0" prefWidth="150.0" styleClass="difficultyButton" text="Середньо" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="hd" alignment="CENTER" layoutX="225.0" layoutY="640.0" onMouseClicked="#selectDifficulty" prefHeight="50.0" prefWidth="150.0" styleClass="difficultyButton" text="Складно" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

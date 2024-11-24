@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="wl" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" styleClass="difficultySelector" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+   <children>
+      <Label alignment="CENTER" layoutX="50.0" layoutY="130.0" prefHeight="120.0" prefWidth="500.0" styleClass="difficultyLabel" textAlignment="CENTER">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="225.0" layoutY="550.0" onMouseClicked="#showDifficultySelector" prefHeight="50.0" prefWidth="150.0" styleClass="difficultyButton" text="Почати знову" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="225.0" layoutY="650.0" onMouseClicked="#exit" prefHeight="50.0" prefWidth="150.0" styleClass="difficultyButton" text="Вийти з гри" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="50.0" layoutY="350.0" prefHeight="120.0" prefWidth="500.0" styleClass="difficultyLabel" textAlignment="CENTER">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

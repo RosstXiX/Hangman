@@ -1,0 +1,50 @@
+
+.label {
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-fill: white;
+}
+
+.mainBG {
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+}
+
+.startButton {
+    -fx-background-color: transparent;
+    -fx-font-size: 100px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 3, 3);
+    -fx-cursor: hand;
+}
+
+.difficultyLabel {
+    -fx-font-weight: bold;
+}
+
+.startButton:pressed {
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+    -fx-font-size: 95px;
+}
+
+.difficultySelector {
+    -fx-background-image: url("/images/smallBG.png");
+    -fx-background-position: center;
+    -fx-background-size: 600 800;
+}
+
+.difficultyButton {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-image-width: 2px;
+    -fx-border-radius: 5;
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 3, 3);
+    -fx-cursor: hand;
+}
+
+.difficultyButton:pressed {
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+    -fx-font-size: 18px;
+}

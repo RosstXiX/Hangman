@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/background.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="460.0" layoutY="150.0" prefHeight="200.0" prefWidth="1000.0" text="ШИБЕНИЦЯ" textAlignment="CENTER">
+         <font>
+            <Font size="150.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="625.0" layoutY="770.0" onMouseClicked="#showDifficultySelector" prefHeight="150.0" prefWidth="670.0" styleClass="startButton" text="Почати гру">
+         <font>
+            <Font size="100.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

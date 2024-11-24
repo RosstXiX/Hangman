@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true" styleClass="mainBG">
+         <image>
+            <Image url="@images/background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="700.0" fitWidth="770.0" layoutX="1070.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
+      <HBox alignment="CENTER" layoutY="793.0" prefHeight="110.0" prefWidth="1920.0" spacing="17.0">
+         <children>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="А" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Б" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="В" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Г" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Ґ" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Д" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Е" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Є" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Ж" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="З" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="И" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="І" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Ї" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Й" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="К" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Л" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="М" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutY="936.0" prefHeight="110.0" prefWidth="1920.0" spacing="17.0">
+         <children>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Н" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="О" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="П" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Р" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="С" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Т" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="У" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Ф" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Х" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Ц" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Ч" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Ш" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Щ" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Ь" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Ю" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="110.0" prefWidth="85.0">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/border.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" onMouseClicked="#clickedLetter" prefHeight="110.0" prefWidth="85.0" text="Я" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="98.0" layoutY="640.0" prefHeight="110.0" prefWidth="900.0" />
+      <AnchorPane layoutX="98.0" layoutY="43.0" maxHeight="555.0" maxWidth="900.0" prefHeight="555.0" prefWidth="900.0">
+         <children>
+            <Rectangle arcHeight="40.0" arcWidth="40.0" fill="#1f93ff00" height="555.0" stroke="#ffffff" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="3.0" width="900.0" />
+            <Label alignment="TOP_CENTER" layoutX="21.0" layoutY="21.0" prefHeight="511.0" prefWidth="856.0" text="TEST" textAlignment="JUSTIFY" textFill="WHITE" textOverrun="WORD_ELLIPSIS" wrapText="true">
+               <font>
+                  <Font size="52.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
